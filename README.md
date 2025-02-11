@@ -1,6 +1,88 @@
-# CatDo - To Do App
+# EN - CatDo - To Do App
 
-![Proje Görüntüsü](./screenshot.png)
+![Project Screenshot](./screenshot.png)
+
+This project is a simple To Do application that helps you manage your tasks.
+
+## Features
+
+- Add tasks
+- Complete tasks
+- Delete tasks
+- Update task status
+
+## Setup
+
+### Server
+
+1. Navigate to the project directory:
+    ```bash
+    cd /Users/***/Desktop/todoApp/server
+    ```
+
+2. Install the required dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Configure the database connection (edit the config/db.js file).
+
+4. Start the server:
+    ```bash
+    npm start
+    ```
+
+### Client
+
+1. Navigate to the project directory:
+    ```bash
+    cd /Users/***/Desktop/todoApp/client
+    ```
+
+2. Install the required dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Start the client application:
+    ```bash
+    npm start
+    ```
+
+## Usage
+
+1. Open your browser and go to `http://localhost:3000`.
+2. Add, complete, and manage your tasks.
+
+## API
+
+### GET /tasks
+
+Fetches all tasks.
+
+### POST /tasks/add
+
+Adds a new task.
+
+### DELETE /tasks/delete/:id
+
+Deletes the task with the specified ID.
+
+### PUT /tasks/completed/:id
+
+Updates the completion status of the task with the specified ID.
+
+## Contributing
+
+If you would like to contribute, please submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+# TR - CatDo - To Do Uygulaması
 
 Bu proje, görevlerinizi yönetmenize yardımcı olan basit bir To Do uygulamasıdır.
 
