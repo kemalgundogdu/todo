@@ -1,5 +1,5 @@
 # Photos
-![Project Screenshot](./screenshot.png)
+<img src="./screenshot.png" alt="Project Screenshot" width="300">
 
 # EN - CatDo - To Do App
 
