@@ -4,7 +4,7 @@
 # EN - CatDo - To Do App
 
 This project is a simple To Do application that helps you manage your tasks.
-
+ 
 ## Features
 
 - Add tasks
